@@ -1,0 +1,27 @@
+{
+  "name": "recipe-sracpping",
+  "version": "1.0.0",
+  "description": "scrapping with puppeter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deathcrush/recipe-sracpping.git"
+  },
+  "author": "deathcrush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deathcrush/recipe-sracpping/issues"
+  },
+  "homepage": "https://github.com/deathcrush/recipe-sracpping#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
